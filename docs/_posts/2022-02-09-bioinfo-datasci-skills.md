@@ -5,7 +5,7 @@ date:   2022-02-09 18:45:00 -0000
 categories: bioinformatics datascience job skills programming
 ---
 
-Noticing several overlaps between bioinformatics and data science skill, I decided to visualize the similarities and differences. I randomly selected and compared 20 job postings on LinkedIn for each of them. I have limited my analysis to just the software skills required, including programming languages, frameworks, databases, etc. Comparing other skills would result in an unfair comparison since bioinformatics jobs often require specialized biological knowledge. Since it was random, the only filter I applied during selection was that the job title should reflect an entry or mid-level position, with hands-on work and not managerial roles.
+Noticing several overlaps between bioinformatics and data science skills, I decided to visualize the similarities and differences. I randomly selected and compared 20 job postings on LinkedIn for each of them. I have limited my analysis to just the software skills required, including programming languages, frameworks, databases, etc. Comparing other skills would be unfair since bioinformatics jobs often require specialized biological knowledge. The only filter I applied during selection was that the job title should reflect an entry or mid-level position, with hands-on work and not managerial roles.
 
 This is how the plot looks!
 ![Bioinfo datascience tools comparison](/assets/images/combined_job_skills_counts.svg "Bioinformatics vs Datascience skills")
