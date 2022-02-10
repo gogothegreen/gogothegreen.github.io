@@ -27,3 +27,6 @@ So there are two take-home messages.
 
 1. **To get into data science, you need to know Python and SQL! If you can combine it with AWS or Spark skills, you have a better chance of landing a job.**
 2. **To be a bioinformatician, you need to know Python and R, along with knowledge of some other tools like Git, and also genome analysis tools like BWA.**
+
+## Data
+Data and code for this analysis can be found [here](https://github.com/gogothegreen/bioinfor_datsci_job_stats_analysis).
