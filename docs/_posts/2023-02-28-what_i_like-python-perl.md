@@ -31,8 +31,25 @@ Whereas, in Python, it is quite simple
 It could be quite difficult for a new programmer to learn this detail. Hence, unless it causes a problem, someone could end up doing bad programming for ever. In Python, this is all taken care of by the language, which is very convenient to say the least. As a new Python programmer, I spent some time checkinghow to pass references before realizing that it was unnecessary because in Python every variable is a reference to an object!
 
 ### Installation
+Fortunately, systems versions of both Perl and Python are available in UNIX-like systems. However, one might need to work with different versions of these programs, or install modules, all of which can interfere with the system Perl or Python. 
 
+For Perl, I have used [PerlBrew](https://perlbrew.pl/), which makes it easy to use and switch between different versions of Perl.
+
+Python achieves this whith the help of a virtual environment, which can additionally also contain packages and their dependencies. This strikes me as a better way of organizing and distributing programs.
 ### Virtual environments
+As mentioned above, virtual environments are cool. The ability of contenarize all the dependencies of a project is indeed powerful and convenient. Virtual environments can be implemented in Python using three different tools:
+- venv
+-pyenv
+- pyenv-virtualenv
+
+`venv` commands for creating, activating, and deactivating new environments are:
+    $ python3 -m venv directory-name
+    $ source directory-name/bin/activate
+    $ deactivate
+
+Packages and dependencies can be installed via **pip**, usually by including a requirements.txt file, and using `pip install -r requirements.txt`. 
+
+When additional versions of python are needed, `pyenv` can be used. I haven't used it yet, so can't comment. `pyenv-virtualenv` is a tool to create virtual environments integrated with `pyenv`. It also works with the Anaconda and Miniconda environments.
 
 ### Machine Learning and AI
 
